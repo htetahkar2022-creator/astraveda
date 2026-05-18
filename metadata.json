@@ -1,0 +1,6 @@
+{
+  "name": "AstroVeda",
+  "description": "Production-ready Vedic and Burmese astrology platform with precise Swiss Ephemeris calculations, South Indian charts, and Mahabote fate predictions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
