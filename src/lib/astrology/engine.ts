@@ -1,5 +1,8 @@
-import * as Astronomy from "astronomy-engine";
+import * as Astr from "astronomy-engine";
 import { format, addYears } from "date-fns";
+
+// Compatibility helper for astronomy-engine ESM/CJS mixed loading
+const Astronomy = (Astr as any).default || Astr;
 
 export interface AstroInput {
   name: string;
